@@ -1,0 +1,158 @@
+{
+"products":[
+    {
+        "id":0,
+        "img":"https://www.giordano.co.kr/_data/attach/202308/02/794d943490b72ebe8ec6deeaf0c5ef2f.jpg",
+        "title":"NEW 차은우 코튼 옥스포드 릴랙스핏 셔츠",
+        "content": "핏이 죽입니다",
+        "price":"￦29,800",
+        "choice":true,
+        "new":true,
+        "size":["S","M","L"]
+
+    },
+    {
+        "id":1,
+        "img":"https://www.giordano.co.kr/_data/attach/202308/14/ec6f44d9cfe785499cd8f1a2987ef74e.jpg",
+        "title":"NEW 차은우 데님 자켓",
+        "content": "차은우가 입어서 핏이 죽입니다",
+        "price":"￦69,800",
+        "choice":true,
+        "new":true,
+        "size":["S","M","L"]
+
+    },
+    {
+        "id":2,
+        "img":"https://www.giordano.co.kr/_data/attach/202308/04/bcb0aaf9ed94c5c70095c4b338c844fa.jpg",
+        "title":"NEW 차은우 코튼 옥스포드 레귤러핏 셔츠",
+        "content": "차은우가 입어서 핏이 죽입니다",
+        "price":"￦39,800",
+        "choice":false,
+        "new":true,
+        "size":["S","M","L"]
+
+    },
+    {
+        "id":3,
+        "img":"https://www.giordano.co.kr/_data/attach/202308/30/a788ce72ee4403779e7413c63dd4ec0b.jpg",
+        "title":"NEW 차은우 프렌치테리 크루넥 맨투맨",
+        "content": "캐쥬얼한 옷도 잘어울려요",
+        "price":"￦35,800",
+        "choice":false,
+        "new":true,
+        "size":["S","M","L"]
+
+    },
+    {
+        "id":4,
+        "img":"https://www.giordano.co.kr/_data/attach/202302/20/9de7227c303e7daa1e76d2d3f2cfea25.jpg",
+        "title":"차은우 코튼 트윌 카고팬츠",
+        "content": "핸섬보이~~",
+        "price":"￦44,800",
+        "choice":true,
+        "new":false,
+        "size":["S","M","L"]
+
+    },
+    {
+        "id":5,
+        "img":"https://www.giordano.co.kr/_data/attach/202308/24/9a80726a7300d1b9f7b0625538b1dddf.jpg",
+        "title":"NEW 한소희 테리 크루넥 맨투맨",
+        "content": "가을에 입기 좋아요",
+        "price":"￦33,800",
+        "choice":false,
+        "new":false,
+        "size":["S","M","L"]
+
+    },
+    {
+        "id":6,
+        "img":"https://www.giordano.co.kr/_data/attach/202309/05/15d9623052d36fc0f87d01598b62885f.jpg",
+        "title":"NEW 포플린 자수 크롭 셔츠 (온라인전용)",
+        "content": "배는 좀 춥지만, 멋으로는 입을만 해요",
+        "price":"￦29,000",
+        "choice":true,
+        "new":false,
+        "size":["S","M","L"]
+
+    },
+    {
+        "id":7,
+        "img":"https://www.giordano.co.kr/_data/attach/202308/14/e7eae086c58dd1e094289cffb31792c7.jpg",
+        "title":"NEW 한소희 와이드핏 카펜터 데님",
+        "content": "요즘 유행하는 와이드핏 데님",
+        "price":"￦53,800",
+        "choice":false,
+        "new":true,
+        "size":["S","M","L"]
+
+    },
+    {
+        "id":8,
+        "img":"https://www.giordano.co.kr/_data/attach/202308/08/bbeaa8c8ca4dde01d61b731436869a9b.jpg",
+        "title":"NEW 한소희 코튼 와이드 카고 조거팬츠",
+        "content": "2000년대 초반으로 돌아간 듯한 카고+ 요즘 유행 조거팬츠",
+        "price":"￦53,800",
+        "choice":true,
+        "new":true,
+        "size":["S","M","L"]
+
+    },
+    {
+        "id":9,
+        "img":"https://www.giordano.co.kr/_data/attach/202308/24/4923e2b2b080d436397419a96117b649.jpg",
+        "title":"프렌치 테리 조거 팬츠",
+        "content": "기본 조거 팬츠",
+        "price":"￦35,800",
+        "choice":false,
+        "new":true,
+        "size":["S","M","L"]
+
+    },
+    {
+        "id":10,
+        "img":"https://www.giordano.co.kr/_data/attach/202308/24/858a06f28c9d21303aa31c1c595bc9ef.jpg",
+        "title":"NEW 2WAY 집업 가디건",
+        "content": "기본템인 집업 가디건입니다.",
+        "price":"￦69,800",
+        "choice":true,
+        "new":false,
+        "size":["S","M","L"]
+
+    },
+    {
+        "id":11,
+        "img":"https://www.giordano.co.kr/_data/attach/202208/05/523e9b59cc584dba426aa0dbdaf053dd.jpg",
+        "title":"데님 트러커 자켓",
+        "content": "누가 입어도 잘 어울리는 자켓",
+        "price":"￦39,000",
+        "choice":true,
+        "new":true,
+        "size":["S","M","L"]
+
+    },
+    {
+        "id":12,
+        "img":"https://www.giordano.co.kr/_data/attach/202308/07/76e079d30fa1a037678e72f9255026e5.jpg",
+        "title":"케이블 크루넥 가디건",
+        "content": "요즘 집에 가디건 종류별로 3벌씩 가지고 있죠?",
+        "price":"￦39,000",
+        "choice":true,
+        "new":true,
+        "size":["S","M","L"]
+
+    },
+    {
+        "id":13,
+        "img": "https://www.giordano.co.kr/_data/attach/202307/10/83d11eaa38179dc0101d50c0a0682344.jpg",
+        "title":"차은우 코튼 베이직 폴로 피케 [23SS]",
+        "content": "만 원이지만, 차은우가 입으니 100만원 같아보이는 마법",
+        "price":"￦10,000",
+        "choice":false,
+        "new":false,
+        "size":["S","M","L"]
+
+    }
+]
+}
