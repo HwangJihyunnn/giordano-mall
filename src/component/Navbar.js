@@ -3,19 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser } from '@fortawesome/free-regular-svg-icons';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import { Link, useNavigate } from 'react-router-dom'
-import { useNavigate } from 'react-router-dom';
-const Login = ({setAuthenticate}) => {
-  const navigate = useNavigate();
 
-  // submin 버튼을 클릭할 때마다 form이 매번 새로고침되므로 콘솔창에서 텍스트가 사라짐
-  // form을 쓸 때는 form이 새로고침 되는 것을 막아주는 e.preventDefault()를 써준다
-  const loginUser = (e) => {
-    e.preventDefault();
-    console.log("Login user function issue")
-    setAuthenticate(true);
-    navigate('/')
-  }
-}
 
 const Navbar = ({authenticate, setAuthenticate}) => {
   /* 네비게이션 메뉴바 영역을 배열로 처리 -> 메뉴의 확장성 */

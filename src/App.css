@@ -153,7 +153,7 @@ body {
 .side-menu-list li{width: 100%;}
 .side-menu-list li > a {
   display: block;
-  line-height: 50px;
+  line-height: 3.125rem;
   text-decoration: none;
   text-align: center;
   color: #272727;
