@@ -3,12 +3,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser } from '@fortawesome/free-regular-svg-icons';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import { Link, useNavigate } from 'react-router-dom'
-import { useSelector } from 'react-redux';
 
 
-const Navbar = () => {
+const Navbar = ({authenticate, setAuthenticate}) => {
   /* 네비게이션 메뉴바 영역을 배열로 처리 -> 메뉴의 확장성 */
-  const authenticate = useSelector(state=> state.auth.authenticate)
   const menuList = [
     "전체",
     "아우터",
@@ -57,24 +55,24 @@ const Navbar = () => {
         </ul>
       </div>
 
-           {/* 햄버거메뉴 */}
-           <div className="nav-header">
+      {/* 햄버거메뉴 */}
+      <div className="nav-header">
         <div className="burger-menu hide">
           <img src={require('../img/menu.png')} alt="메뉴열기" onClick={()=>{setWidth(280)}}/>
         </div>
           {/* 로그인 버튼을 클릭하면 로그아웃이 되고 로그아웃을 클릭하면 로그인으로 변경 */}
           {
-            authenticate == true?
-              <div>
+            authenticate? (
+              <div onClick={()=>setAuthenticate(false)}>
                 <FontAwesomeIcon icon={faUser} />
                 <span style={{cursor: 'pointer'}}>로그아웃</span>
               </div>
-              :
-              <div onClick={()=> navigate('./login')}>
+            ) : (
+              <div onClick={()=>navigate('/login')}>
                 <FontAwesomeIcon icon={faUser} />
                 <span style={{cursor: 'pointer'}}>로그인</span>
               </div>
-
+            )
           }
       </div>
 

@@ -1,15 +1,9 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Button, Form } from 'react-bootstrap'
 import { useNavigate } from 'react-router-dom'
-import { useDispatch } from 'react-redux'
-import authenticateAction   from 'react'
 
 
-const LoginPage = () => {
-  const [id, setId] = useState('');
-  const [password, setPassword] = useState('');
-  const dispatch = useDispatch();
-
+const LoginPage = ({setAuthenticate}) => {
   const navigate = useNavigate();
 
   //submin 버튼을 클릭할 때마다 form이 매번 새로고침되므로 콘솔창에서 텍스트가 사라짐
@@ -17,7 +11,7 @@ const LoginPage = () => {
   const loginUser = (e) => {
     e.preventDefault();
     console.log("Login user function issue")
-    dispatch(authenticateAction.login(id, password))
+    setAuthenticate(true)
     navigate('/')
   }
   
